@@ -24,5 +24,3 @@ class Solutiuon:
 obj = Solutiuon()
 ans = obj.maximumSubarraySum([1,5,4,2,9,9,9],3)
 print(ans)
-
-            
