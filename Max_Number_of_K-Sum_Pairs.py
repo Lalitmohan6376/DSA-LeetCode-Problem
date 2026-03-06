@@ -22,5 +22,3 @@ class Solution:
 obj = Solution()
 ans = obj.maxOperations([4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4], 2)
 print(ans)
-
-
