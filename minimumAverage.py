@@ -34,8 +34,6 @@ class Solution:
         print(mini)
         
         return output
-
 obj = Solution()
 ans = obj.minimumAverage([7,8,3,4,15,13,4,1])
 print(ans)
-
