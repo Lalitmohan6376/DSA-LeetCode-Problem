@@ -9,7 +9,6 @@ class solution:
             seen.add(i)
         return ans
 
-
 obj = solution()
 ans = obj.find([1,2,3,-3])
 print(ans)
