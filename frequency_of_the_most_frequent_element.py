@@ -4,7 +4,6 @@
 
 #Return the maximum possible frequency of an element after performing at most k operations.
 
-
 class Solution:
     def maxFrequency(self,num,k):
         num.sort()
