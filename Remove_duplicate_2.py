@@ -10,8 +10,7 @@ class Solution:
                 k+=1
                 
         return len(output)
-        
-        
+               
 
 obj = Solution()
 ans = obj.removeDuplicates([1,1,1,2,2,3,3])
