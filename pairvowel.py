@@ -17,4 +17,3 @@ def pairvowel(s):
             
 ans = pairvowel("aeiokmnguaepq")
 print(ans)
-            
