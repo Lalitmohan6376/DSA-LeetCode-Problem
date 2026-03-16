@@ -25,4 +25,3 @@ obj = NumArray(nums)
 print(obj.sumRange(0, 2))  
 print(obj.sumRange(2, 5))  
 print(obj.sumRange(0, 5))  
-
