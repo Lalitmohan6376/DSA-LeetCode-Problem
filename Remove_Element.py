@@ -8,4 +8,3 @@ class Solution:
         return k 
 
 print(Solution().removeElement([1,2,2,3],3))
-
