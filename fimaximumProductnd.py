@@ -9,8 +9,6 @@
 
 # Return the maximum product of the first and last elements of any subsequence of nums of size m.
 
-
-
 class Solution:
     def fimaximumProductnd(self,num,m):
         n = len(num)
