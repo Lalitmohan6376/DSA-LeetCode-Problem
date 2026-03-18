@@ -25,7 +25,6 @@ class Solution:
             i += 1
 
         return count
-
 obj = Solution()
 ans = obj.findTheDistanceValue([4,5,6],[10,9,1,8],2)
 print(ans)
