@@ -19,7 +19,6 @@ class NumArray:
             return self.prefix[right]
         return self.prefix[right] - self.prefix[left-1]
 
-
 nums = [-2, 0, 3, -5, 2, -1]
 obj = NumArray(nums)
 print(obj.sumRange(0, 2))  
