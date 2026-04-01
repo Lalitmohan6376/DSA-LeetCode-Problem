@@ -23,5 +23,4 @@ n = 3
 
 obj = Solution()
 obj.merge(nums1, m, nums2, n)
-
 print(nums1)
