@@ -2,7 +2,6 @@
 
 #Notice that the solution set must not contain duplicate triplets.
 
-
 class Solution:
     def threeSum(self, nums):
         output = set()
