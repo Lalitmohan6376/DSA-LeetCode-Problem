@@ -14,4 +14,4 @@ for i in range(1, len(num)):
             candidate = num[i]
             count = 1
 
-print(candidate)  # Majority element
+print(candidate)
