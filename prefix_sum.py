@@ -11,7 +11,6 @@ class Solution:
             output.append(run)
         return  output
 
-
 obj = Solution()
 ans = obj.runningsum([1,2,3,4])
 print(ans)
