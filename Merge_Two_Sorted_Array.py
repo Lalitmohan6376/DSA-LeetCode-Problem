@@ -15,7 +15,6 @@ class Solution:
                 j -= 1
             k -= 1
 
-
 nums1 = [1, 3, 5, 0, 0, 0]
 m = 3
 nums2 = [2, 4, 6]
