@@ -8,7 +8,6 @@ class Solution:
 
         while i<j:
            s = nums[i] + nums[j]
-
            if s == k:
                count+=1
                i+=1
