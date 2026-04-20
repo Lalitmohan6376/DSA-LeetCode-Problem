@@ -4,7 +4,8 @@ class Solution:
         num1.sort()
         num2.sort()
         
-        i, j = 0, 0
+        i = 0
+        j = 0
         result = []
         
         while i < len(num1) and j < len(num2):
