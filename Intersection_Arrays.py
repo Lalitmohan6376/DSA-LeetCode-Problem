@@ -1,4 +1,4 @@
-# To find Intersection in Array
+# To Find Intersection in Array
 class Solution:
     def intersection(self, num1, num2):
         num1.sort()
