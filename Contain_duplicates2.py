@@ -11,5 +11,5 @@ for i in range(1, len(num)):
         if count == 0:
             candidate = num[i]
             count = 1
-
+            
 print(candidate)
