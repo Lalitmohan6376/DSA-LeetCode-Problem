@@ -1,3 +1,4 @@
+# Mirror string
 def mirrorstring(s):
     count = 0
     n = len(s)
