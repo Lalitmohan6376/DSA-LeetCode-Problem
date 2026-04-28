@@ -30,8 +30,4 @@ class Solution:
         
 obj = Solution()        
 ans = obj.largestRectangleArea([2,1,5,6,2,3])
-print(ans)
-        
-
-        
-        
+print(ans)   
