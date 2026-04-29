@@ -10,5 +10,4 @@ class Solution:
 
 obj = Solution()
 ans  = obj.moveZeroes([1,2,0,3])
-
 print(ans)
