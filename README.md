@@ -45,4 +45,3 @@ The main goal of this repository is to:
 
 * Python 🐍 (primary language)
 
-Thank You
