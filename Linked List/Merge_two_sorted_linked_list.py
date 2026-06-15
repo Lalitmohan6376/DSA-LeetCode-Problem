@@ -29,12 +29,10 @@ def mergeTwoLists(list1, list2):
     return dummy.next
 
 
-# List 1: 1 -> 2 -> 4
 list1 = ListNode(1)
 list1.next = ListNode(2)
 list1.next.next = ListNode(4)
 
-# List 2: 1 -> 3 -> 4
 list2 = ListNode(1)
 list2.next = ListNode(3)
 list2.next.next = ListNode(4)
