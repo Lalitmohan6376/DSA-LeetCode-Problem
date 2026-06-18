@@ -37,6 +37,3 @@ sol = Solution()
 
 result = sol.hasCycle(head)
 print(result)
-
-
-        
