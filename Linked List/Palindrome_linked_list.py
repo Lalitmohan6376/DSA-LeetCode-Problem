@@ -44,4 +44,3 @@ n3.next = n4
 
 sol = Solution()
 print(sol.isPalindrome(n1))
-        
