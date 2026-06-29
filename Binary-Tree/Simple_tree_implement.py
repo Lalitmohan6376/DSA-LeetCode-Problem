@@ -4,7 +4,7 @@ class TreeNode:
         self.children = []
 
 
-# Root node
+
 root = TreeNode("A")
 
 # Child nodes
