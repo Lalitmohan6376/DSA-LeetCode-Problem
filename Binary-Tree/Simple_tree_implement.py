@@ -12,16 +12,16 @@ b = TreeNode("B")
 c = TreeNode("C")
 d = TreeNode("D")
 
-# Add children to root
+
 root.children.append(b)
 root.children.append(c)
 root.children.append(d)
 
-# Add children to B
+
 b.children.append(TreeNode("E"))
 b.children.append(TreeNode("F"))
 
-# Add child to C
+
 c.children.append(TreeNode("G"))
 
 
