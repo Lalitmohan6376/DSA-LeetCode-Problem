@@ -7,7 +7,6 @@ class TreeNode:
 
 root = TreeNode("A")
 
-# Child nodes
 b = TreeNode("B")
 c = TreeNode("C")
 d = TreeNode("D")
