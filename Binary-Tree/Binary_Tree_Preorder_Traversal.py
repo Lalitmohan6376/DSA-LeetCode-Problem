@@ -21,5 +21,3 @@ class Solution:
       self.ans = []
       self.preorder(root)
       return self.ans
-       
-        
