@@ -1,4 +1,4 @@
-# 📘 DSA LeetCode Solutions Repository
+# 📘 DSA LeetCode Solutions Repositorys
 
 This repository contains my solutions to various DSA (Data Structures & Algorithms) problems from LeetCode. It is used for consistent practice, improving problem-solving skills, and preparing for coding interviews.
 
