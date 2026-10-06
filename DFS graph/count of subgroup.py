@@ -14,19 +14,23 @@ class Solution:
 
             valid = True
 
-            if grid1[row][col] == 0:
+            # Current cell grid1 में भी 1 होना चाहिए
+            if grid1[row][col] == 1:
+                valid = True
+            else:
                 valid = False
 
-            if not dfs(row - 1, col):
+            # चारों directions
+            if dfs(row - 1, col) == False:
                 valid = False
 
-            if not dfs(row + 1, col):
+            if dfs(row + 1, col) == False:
                 valid = False
 
-            if not dfs(row, col - 1):
+            if dfs(row, col - 1) == False:
                 valid = False
 
-            if not dfs(row, col + 1):
+            if dfs(row, col + 1) == False:
                 valid = False
 
             return valid
@@ -36,7 +40,7 @@ class Solution:
         for row in range(rows):
             for col in range(cols):
                 if grid2[row][col] == 1:
-                    if dfs(row, col):
+                    if dfs(row, col) == True:
                         count += 1
 
         return count
