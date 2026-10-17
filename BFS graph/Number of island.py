@@ -11,7 +11,8 @@ class Solution:
         for r in range(rows):
             for c in range(cols):
                 if grid[r][c] == "1":
-
+                    island += 1
+                    
                     queue = [(r, c)]
                     grid[r][c] = "0"  
                     front = 0
@@ -23,10 +24,10 @@ class Solution:
                         for dr, dc in directions:
                             new_r = curr_r + dr
                             new_c = curr_c + dc
+                            
                             if 0 <= new_r < rows and 0 <= new_c < cols:
                                 if grid[new_r][new_c] == "1":
                                     queue.append((new_r, new_c))
-                                    
                                     grid[new_r][new_c] = "0"
                                     
         return island
